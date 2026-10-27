@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx ./src/server.ts",
+    "build": "vite build",
+    "start": "node dist/server.mjs"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.0.0",
+    "dotenv": "^17.4.2",
+    "hono": "^4.12.15"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
